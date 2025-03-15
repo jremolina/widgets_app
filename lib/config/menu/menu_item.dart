@@ -1,6 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 
-
 import 'package:flutter/material.dart';
 
 class MenuItem {
@@ -9,36 +8,25 @@ class MenuItem {
   final String link;
   final IconData icon;
 
-
   const MenuItem({
     required this.title,
     required this.subtitle,
     required this.link,
     required this.icon,
   });
-  
-  
 }
 
-const appMenuItems =<MenuItem>[
+const appMenuItems = <MenuItem>[
   MenuItem(
     title: 'Botones',
     subtitle: 'Varios botones en flutter',
     link: '/buttons',
     icon: Icons.smart_button_outlined,
   ),
-    MenuItem(
+  MenuItem(
     title: 'Tarjetas',
     subtitle: 'un contenedor estilizado',
-    link: '/card',
+    link: '/cards',
     icon: Icons.credit_card,
   ),
 ];
-
-
-
-
-
-
-
-
