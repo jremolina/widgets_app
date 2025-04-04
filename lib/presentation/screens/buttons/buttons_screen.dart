@@ -66,14 +66,13 @@ class _ButtonsView extends StatelessWidget {
               label: const Text('Outlined Button Icon'),
               icon: Icon(Icons.car_crash),
             ),
-            TextButton(onPressed: () {}, child: Text('TExtButton')),
+            TextButton(onPressed: () {}, child: Text('TextButton')),
             TextButton.icon(
               onPressed: () {},
-              label: Text('TExtButton Icon'),
+              label: Text('TextButton Icon'),
               icon: Icon(Icons.abc),
             ),
             CustomButton(),
-
             IconButton(onPressed: () {}, icon: Icon(Icons.email)),
             IconButton(
               onPressed: () {},
