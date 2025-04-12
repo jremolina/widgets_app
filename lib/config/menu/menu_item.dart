@@ -47,5 +47,11 @@ const appMenuItems = <MenuItem>[
     link: '/container',
     icon: Icons.crop_square,
   ),
+    MenuItem(
+    title: 'Checkbox, Radio buttons y mas',
+    subtitle: 'Controles de UI',
+    link: '/controles',
+    icon: Icons.check_box,
+  ),
 
 ];
