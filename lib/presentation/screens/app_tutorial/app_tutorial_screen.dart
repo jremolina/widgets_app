@@ -42,7 +42,7 @@ class AppTutorialScreen extends StatefulWidget {
 }
 
 class _AppTutorialScreenState extends State<AppTutorialScreen> {
- final PageController pageviewController = PageController();
+  final PageController pageviewController = PageController();
   bool endReached = false;
 
   @override

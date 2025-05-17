@@ -35,29 +35,34 @@ const appMenuItems = <MenuItem>[
     link: '/progress',
     icon: Icons.refresh_rounded,
   ),
-   MenuItem(
+  MenuItem(
     title: 'Snackbars Y Dialogos',
     subtitle: 'Snackbars',
     link: '/snackbar',
     icon: Icons.message,
   ),
-    MenuItem(
+  MenuItem(
     title: 'Animated Container',
     subtitle: 'Containers',
     link: '/container',
     icon: Icons.crop_square,
   ),
-    MenuItem(
+  MenuItem(
     title: 'Checkbox, Radio buttons y mas',
     subtitle: 'Controles de UI',
     link: '/controles',
     icon: Icons.check_box,
   ),
-     MenuItem(
+  MenuItem(
     title: 'APP Tutorial',
     subtitle: 'Un pequeño tutorial',
     link: '/apptutorial',
     icon: Icons.tour,
   ),
-
+  MenuItem(
+    title: 'Infinite Scroll',
+    subtitle: 'Pagina sin final',
+    link: '/infinite',
+    icon: Icons.loop,
+  ),
 ];
