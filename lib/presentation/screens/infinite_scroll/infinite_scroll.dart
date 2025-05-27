@@ -95,7 +95,7 @@ class _InfiniteScrollState extends State<InfiniteScroll> {
         onRefresh: onRefresh,
         edgeOffset: 10,
         strokeWidth: 2,
-        child: customListView(
+        child: CustomListView(
           scrollController: scrollController,
           imagesIds: imagesIds,
         ),
@@ -113,8 +113,8 @@ class _InfiniteScrollState extends State<InfiniteScroll> {
   }
 }
 
-class customListView extends StatelessWidget {
-  const customListView({
+class CustomListView extends StatelessWidget {
+  const CustomListView({
     super.key,
     required this.scrollController,
     required this.imagesIds,
