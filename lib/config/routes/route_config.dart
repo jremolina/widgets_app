@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+
 import '../../presentation/screens/screens.dart';
 
 // class RouteConfig {
@@ -42,7 +43,7 @@ final appRouter = GoRouter(
       path: '/progress',
       builder: (context, state) => ProgressScreen(),
     ),
-     GoRoute(
+    GoRoute(
       name: SnackbarScreen.name,
       path: '/snackbar',
       builder: (context, state) => SnackbarScreen(),
@@ -62,10 +63,15 @@ final appRouter = GoRouter(
       path: '/apptutorial',
       builder: (context, state) => AppTutorialScreen(),
     ),
-     GoRoute(
+    GoRoute(
       name: InfiniteScroll.name,
       path: '/infinite',
       builder: (context, state) => InfiniteScroll(),
+    ),
+    GoRoute(
+      name: CounterScreen.name,
+      path: '/counter',
+      builder: (context, state) => CounterScreen(),
     ),
   ],
 );

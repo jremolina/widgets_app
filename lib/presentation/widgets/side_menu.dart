@@ -25,9 +25,6 @@ class _SideMenuState extends State<SideMenu> {
 
         final menuItem = appMenuItems[value];
         context.push(menuItem.link);
-
-      
-
       },
       children: [
         Padding(
@@ -35,9 +32,7 @@ class _SideMenuState extends State<SideMenu> {
           child: Text('Main Menu'),
         ),
 
-        ...appMenuItems
-            .sublist(0, 3)
-            .map(
+        ...appMenuItems.sublist(0, 3).map(
               (item) => NavigationDrawerDestination(
                 icon: Icon(item.icon),
                 label: Text(item.title),
@@ -51,9 +46,7 @@ class _SideMenuState extends State<SideMenu> {
           child: Text('More options'),
         ),
 
-        ...appMenuItems
-            .sublist(3)
-            .map(
+        ...appMenuItems.sublist(3).map(
               (item) => NavigationDrawerDestination(
                 icon: Icon(item.icon),
                 label: Flexible(

@@ -10,10 +10,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     final scaffoldKey = GlobalKey<ScaffoldState>();
-
-
 
     return Scaffold(
       key: scaffoldKey,
